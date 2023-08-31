@@ -1,0 +1,229 @@
+
+/* Header styles */
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  /* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Menempatkan elemen di antara navbar ke kiri dan logo ke kanan */
+    align-items: center;
+    padding: 10px;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #ffff ; /* Logo color */
+    
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-menu li {
+    margin-right: 20px;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: #ffff; /* Menu text color */
+  }
+
+  /* Section-1 Profile  */
+  /* ... (previous styles) ... */
+
+/* Welcome section styles */
+#welcome {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .welcome-text {
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100;
+
+  }
+  
+  /* Slideshow styles */
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    /* width: 1260px;
+    height: 800px; */
+    max-height: 510px;
+    width: 100%;
+  }
+  
+  
+  /* Slideshow styles */
+  .slideshow-container {
+    position: relative;
+  }
+  
+  /* Facilitation and Message form styles */
+  /* Add styles as needed */
+  
+  /* Footer styles */
+  footer {
+    text-align: end;
+    padding: 10px;
+    background-color: whitesmoke;
+  }
+
+  .image-text {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.422);
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* Memastikan tiga card sejajar dengan jarak antara card */
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /* Message Form section styles */
+#message-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+#message-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Form styles */
+#contact-form {
+  flex: 1;
+  padding-right: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="date"],
+#contact-form select,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#contact-form button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 25px;
+  
+
+}
+
+/* Output styles */
+.output {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f4f4f4;
+}
+
+.output h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.output p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Current time styles */
+#time {
+  font-weight: bold;
+  color: #333;
+}
+
+output{
+  background-color: #f4f4f4;
+}
+

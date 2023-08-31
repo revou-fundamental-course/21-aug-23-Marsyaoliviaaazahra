@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/style.css">
+  <script src="js/script.js" defer></script>
+  <title>Mini Project</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo"><img src="images/logo.jpg" alt=""></div>
+        <ul class="navbar-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="profile.html">Our Profile</a></li>
+          <li><a href="profile.html">Achievement</a></li>
+          <li><a href="#contact">Message Us</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <section id="profile">
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="images/img1.jpeg" alt="Slide 1">
+          <div class="welcome-text">
+            <div class="image-text">
+              <h1 style="color: rgb(64, 64, 64);">Hi, <span id="nameSpan">Nama</span> Welcome To Website</h1>
+              <p style="color: rgb(135, 134, 134);"></p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more slides as needed -->
+      </div>
+    </section>
+
+  <section id="profile">
+    <!-- Your content for the profile section -->
+  </section>
+
+  <section id="achievement">
+    <!-- Your content for the achievement section -->
+  </section>
+
+  <section id="contact">
+    <!-- Your content for the contact section -->
+  </section>
+
+  <section id="slideshow">
+    <div class="slideshow-container">
+      <!-- Images and slideshow controls -->
+    </div>
+  </section>
+
+  <section id="facilitation">
+    <h1 style="text-align: center;">Our facilitation</h1>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/gambar1.png" alt="Gambar 1">
+        <h2>Teknologi Informasi</h2>
+        <p>Akses internet cepat, komputer modern, 
+          dan fasilitas teknologi informasi lainnya untuk mendukung pembelajaran berbasis teknologi.</p>
+      </div>
+      <div class="card">
+        <img src="images/gambar2.png" alt="Gambar 2">
+        <h2>Perpustakaan</h2>
+        <p>Perpustakaan yang dilengkapi dengan berbagai buku dan bahan bacaan yang mendukung pembelajaran. </p>
+      </div>
+      <div class="card">
+        <img src="images/gambar3.png" alt="Gambar 3">
+        <h2>Kafetaria</h2>
+        <p>Tempat untuk makan dan bersosialisasi di antara siswa dengan pilihan makanan sehat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="message-form" style="background-color: rgb(255, 255, 255);">
+    <h2>Message Us</h2>
+    <div class="form-container">
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit" >Submit</button>
+      </form>
+      <div class="output" style="background-color: rgba(240, 248, 255, 0.272); border-radius: 25px;">
+        <h3>Your Message:</h3>
+        <p><strong>Name:</strong> <span id="outputName"></span></p>
+        <p><strong>Birthdate:</strong> <span id="outputBirthdate"></span></p>
+        <p><strong>Gender:</strong> <span id="outputGender"></span></p>
+        <p><strong>Message:</strong> <span id="outputMessage"></span></p>
+        <p><strong>Current Time:</strong> <span id="time"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>by Marsya Olivia Azzahra </p>
+  </footer>
+</body>
+</html>
